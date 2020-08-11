@@ -183,7 +183,7 @@ La página de [Issues](../../issues) se utilizará como foro para preguntas.
 
 ## Etiquetas
 
-Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsqueda de problemas similares. Una entrada puede tener múltiples etiquetas. Aunque el equipo docente irá etiquetando según corresponda, también puedes adelantarte y clasificar tu progunta en [la(s) categoría(s) que correspondan](../../labels):
+Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsqueda de problemas similares. Una entrada puede tener múltiples etiquetas. Aunque el equipo docente irá etiquetando según corresponda, también puedes adelantarte y clasificar tu pregunta en [la(s) categoría(s) que correspondan](../../labels):
 
 * [Material](../../labels/Material): para discutir sobre el material entregado por el equipo docente.
 * [Código](../../labels/C%C3%B3digo): sobre métodos, clases, sintaxis, estándares, etc.
