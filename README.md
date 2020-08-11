@@ -1,52 +1,56 @@
 ## Tabla de contenidos
-* [Programa](#programa)
-  * [Curso](#curso)
-  * [Equipo](#equipo)
-  * [Objetivo](#objetivo)
-  * [Contenidos](#contenidos)
-  * [Metodología](#metodología)
-  * [Evaluación](#evaluación)
-  * [Bibliografía](#bibliografía)
-  * [Código de honor](#código-de-honor)
-* [Proyectos](#proyectos)
-* [Wiki](#wiki)
-  * [Getting Started](#getting-started)
-* [Foro](#foro)
-  * [Etiquetas](#etiquetas)
-  * [Procedimiento](#procedimiento)
+- [Programa](#programa)
+  - [Curso](#curso)
+  - [Equipo](#equipo)
+    - [Profesor](#profesor)
+    - [Ayudantes](#ayudantes)
+  - [Descripción](#descripción)
+  - [Objetivo](#objetivo)
+  - [Competencias](#competencias)
+  - [Contenidos](#contenidos)
+  - [Metodología](#metodología)
+  - [Evaluación](#evaluación)
+  - [Bibliografía](#bibliografía)
+  - [Código de Honor](#código-de-honor)
+- [Proyectos](#proyectos)
+- [Wiki](#wiki)
+  - [Getting Started](#getting-started)
+- [Foro](#foro)
+  - [Etiquetas](#etiquetas)
+  - [Procedimiento](#procedimiento)
 
 # Programa
 
 ## Curso
 
-| Nombre                 | IIC2513 - Tecnologías y Aplicaciones Web  |
-|:-----------------------|:---|
-| **Sección:**           | 1 |
-| **Horario:**           | M-J: 2 |
-| **Créditos:**          | 10 |
-| **Requisitos:**        | IIC2412 o IIC2413  |
-| **Atención Alumnos:**  | Agendamiento por correo |
+| Nombre                | IIC2513 - Tecnologías y Aplicaciones Web |
+| :-------------------- | :--------------------------------------- |
+| **Sección:**          | 1                                        |
+| **Horario:**          | M-J: 2                                   |
+| **Créditos:**         | 10                                       |
+| **Requisitos:**       | IIC2412 o IIC2413                        |
+| **Atención Alumnos:** | Agendamiento por correo                  |
 
 
 ## Equipo
 
 ### Profesor
 
-| Nombre               | Github        |  Email         |
-|:-------------------- |:--------------| :--------------|
-| Sebastián Vicencio   |  [@sivicencio](https://github.com/sivicencio) | sivicencio@uc.cl |
+| Nombre             | Github                                       | Email            |
+| :----------------- | :------------------------------------------- | :--------------- |
+| Sebastián Vicencio | [@sivicencio](https://github.com/sivicencio) | sivicencio@uc.cl |
 
 ### Ayudantes
 
-| Nombre                | Github        | Email         |
-|:--------------------- |:--------------|:--------------|
-| Jorge Becerra         | [@JorgeBdelaT](https://github.com/JorgeBdelaT)    | jabecerra@uc.cl |
-| Nicolás Bravo         | [@nhbravo](https://github.com/nhbravo)        | nhbravo@uc.cl |
-| Camila Chávez         | [@Cschavez](https://github.com/Cschavez)          | cschavez@uc.cl |
-| Michel Magna          | [@Michelmagna](https://github.com/Michelmagna)    | mamagna@uc.cl |
-| Andrés Pincheira      | [@arpincheira](https://github.com/arpincheira)    | arpincheira@uc.cl |
-| Moisés Retamal        | [@meretamal](https://github.com/meretamal)        | meretamal@uc.cl |
-| Diego Vásquez         | [@dhvasquez](https://github.com/dhvasquez)        | dhvasquez@uc.cl |
+| Nombre           | Github                                         | Email             |
+| :--------------- | :--------------------------------------------- | :---------------- |
+| Jorge Becerra    | [@JorgeBdelaT](https://github.com/JorgeBdelaT) | jabecerra@uc.cl   |
+| Nicolás Bravo    | [@nhbravo](https://github.com/nhbravo)         | nhbravo@uc.cl     |
+| Camila Chávez    | [@Cschavez](https://github.com/Cschavez)       | cschavez@uc.cl    |
+| Michel Magna     | [@Michelmagna](https://github.com/Michelmagna) | mamagna@uc.cl     |
+| Andrés Pincheira | [@arpincheira](https://github.com/arpincheira) | arpincheira@uc.cl |
+| Moisés Retamal   | [@meretamal](https://github.com/meretamal)     | meretamal@uc.cl   |
+| Diego Vásquez    | [@dhvasquez](https://github.com/dhvasquez)     | dhvasquez@uc.cl   |
 
 
 ## Descripción
@@ -131,10 +135,10 @@ La nota final considera la interrogación, el examen y el proyecto de la siguien
 
 * **Fechas de evaluaciones:**
 
-| Evaluación           | Fecha               |
-|:-------------------- |:--------------------|
-| I1                   |  01 de octubre      |
-| Ex                   |  14 de diciembre    |
+| Evaluación | Fecha           |
+| :--------- | :-------------- |
+| I1         | 01 de octubre   |
+| Ex         | 14 de diciembre |
 
 Durante el semestre podrían haber evaluaciones y/o actividades, con o sin previo aviso, que aunque no serán consideradas directamente en la nota final, podrían significar bonificaciones en alguna de las evaluaciones listadas anteriormente.
 
@@ -191,11 +195,12 @@ Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categoría
 * [Interrogación](../../labels/Interrogaci%C3%B3n): sobre fechas, contenido, recorreción de interrogaciones, etc.
 * [Materia](../../labels/Materia): sobre conceptos y/o temas vistos en clases o fuera de éstas.
 * [Duplicada](../../labels/Duplicada): pregunta repetida, se hará referencia a la pregunta original.
-* [Packages](../../labels/Packages): Consultas acerca de si se puede utilizar cierto package que no está explícitamente indicado en la Wiki.
+* [Packages](../../labels/Packages): consultas acerca de si se puede utilizar cierto package que no está explícitamente indicado en la Wiki.
 * [Git](../../labels/Git): Preguntas relacionadas con `git`
 * [Inválida](../../labels/Inv%C3%A1lida): la pregunta no cumple los estándares o viola el procedimiento descrito abajo.
 * [Meta-pregunta](../../labels/Meta-Pregunta): pregunta sobre cómo y qué preguntar.
 * [Tengo un error](../../labels/Tengo%20un%20error): para preguntar sobre errores o bugs en códigos antes de caer en la desesperación (pero luego de haber buscado apropiadamente en la Web...).
+* [Importante](../../labels/Importante): issues con información importante que **deben** leer.
 
 ## Procedimiento
 
