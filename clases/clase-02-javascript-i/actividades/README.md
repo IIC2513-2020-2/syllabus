@@ -39,7 +39,7 @@ Ahora que ya tienes lo anterior, tu tarea será utilizarlo para escribir un loop
 // Write your solution here
 ```
 
-## FizBuzz
+## FizzBuzz
 
 El siguiente ejercicio es uno conocido por ser realizado en entrevistas de trabajo de software (así que si lo resuelves, estás sumando puntos para cuando tengas que prepararte para entrevistas).
 
