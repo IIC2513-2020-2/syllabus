@@ -2,7 +2,7 @@
 
 > [Video de la clase](https://drive.google.com/file/d/1n5r0KMGO26LoNayLd9oApMpu9_wXi723/view?usp=sharing) (requiere haber iniciado sesión con cuenta UC)
 
-## Presentación del curso
+## Temas
 - Internet
 - Surgimiento de la Web
 - Conceptos básicos de la Web
