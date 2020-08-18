@@ -1,6 +1,6 @@
 # Actividad Introducción a JavaScript Parte I
 
-> [Código en RunKit](https://drive.google.com/file/d/1n5r0KMGO26LoNayLd9oApMpu9_wXi723/view?usp=sharing)
+> [Código en RunKit](https://runkit.com/sivicencio/5f166db6c06ba6001aaee085)
 
 Vamos a poner en práctica el uso de los elementos fundamentales de JavaScript. Comenzaremos con lo más básico y luego iremos incrementando la complejidad. Como recomendación, haz todos los ejercicios, a pesar de que tal vez podrían parecerte muy básicos. Recuerda que estamos construyendo la base para todo lo que viene en el resto del curso.
 
