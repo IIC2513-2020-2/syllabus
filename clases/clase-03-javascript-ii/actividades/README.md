@@ -32,7 +32,7 @@ Vamos a comenzar con unos ejemplos para entender el scope en JavaScript. [Podrá
 
 Ok, ¿terminaste? Perfecto, podemos continuar.
 
-Disclaimer: los siguientes ejercicios involucran investigación de tu parte, pues tendrás que usar métodos que no vimos explícitamente en clases. Si te surgen dudas (y ojalá sea sí) puedes [utilizar las issues](../../../issues), o también podemos verlo en clases 😉
+> **Disclaimer**: los siguientes ejercicios involucran investigación de tu parte, pues tendrás que usar métodos que no vimos explícitamente en clases. Si te surgen dudas (y ojalá sea sí) puedes [utilizar las issues](../../../../issues), o también podemos verlo en clases 😉
 
 ## Arrays
 
@@ -343,7 +343,7 @@ Para esto debes utilizar el método `map` de un arreglo. Puedes [ver la document
 
 ### Filtrando resultados con `filter`
 
-Ahora vamos a filtrar la lista de usuarios basado en el siguiente criterio: edad. En este caso nos interesa obtener sólo los usuarios que tienen son menores a 30 años.
+Ahora vamos a filtrar la lista de usuarios basado en el siguiente criterio: edad. En este caso nos interesa obtener sólo los usuarios que son menores a 30 años.
 
 Para realizar lo anterior debes utilizar el método `filter` de un arreglo. Puedes [ver la documentación aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) si tienes dudas.
 
@@ -379,7 +379,7 @@ Bien, ahora para que no tengas que hacer siempre eso, existe un método similar 
 
 ### Todo list
 
-Vamos construir un pequeño objeto que represente una todo list. Esta lista tendrá la característica de que estará ordenada por priodades, es decir, el primer elemento será el primero que se "tomará" o se "hará", y luego se seguirá hasta que la lista quede vacía. El objeto debe tener las siguientes propiedades:
+Vamos construir un pequeño objeto que represente una todo list. Esta lista tendrá la característica de que estará ordenada por prioridades, es decir, el primer elemento será el primero que se "tomará" o se "hará", y luego se seguirá hasta que la lista quede vacía. El objeto debe tener las siguientes propiedades:
 
 - `todoList`: arreglo de strings que contendrá la lista misma de las tareas. Puedes inicializarlo como un arreglo vacío o con datos si gustas
 - `remember`: agrega un elemento al final de la lista
