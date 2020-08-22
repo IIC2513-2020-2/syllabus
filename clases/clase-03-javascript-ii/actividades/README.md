@@ -370,7 +370,7 @@ Una práctica bastante utilizada es tomar las keys para iterar sobre cada valor 
 
 ```javascript
 const userValues = [];
-Object.keys(user).forEach((userKeys) => {
+Object.keys(user).forEach((userKey) => {
   // Write your code here
 });
 ```

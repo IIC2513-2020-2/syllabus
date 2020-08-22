@@ -123,7 +123,7 @@ if (true) {
 // console.log(surName);
 ```
 
-Oops, `"ReferenceError: name is not defined"`. Puedes alternar los `console.log` anteriores para ver que con `surName` pasa lo mismo. Esto es porque las variables definidas con estos keywords **sí tienen scope de bloque**, al igual que scope de función.
+Oops, `"ReferenceError: firstName is not defined"`. Puedes alternar los `console.log` anteriores para ver que con `surName` pasa lo mismo. Esto es porque las variables definidas con estos keywords **sí tienen scope de bloque**, al igual que scope de función.
 
 ## Ejemplos más complejos
 
@@ -147,18 +147,18 @@ function countToOneThousand() {
 ¿No vemos nada? Tal vez esperabas que la función contara de `0` a `14`. Recuerda que `var` tiene scope de función solamente, entonces en este caso la declaración dentro del bloque `if` fue hoisted al comienzo de la función (como si hubiésemos escrito `var countLimit;` que es `undefined`), y entonces al evaluar condición para entrar al `for`, tenemos `0 < undefined`, que evalúa a `false`. Si utilizamos `let`, en cambio:
 
 ```javascript
-let countLimit = 1000;
+let countLimitAgain = 1000;
 
-function countToOneThousand() {
-  for (let i = 0; i < countLimit; i += 1) {
+function countToOneThousandAgain() {
+  for (let i = 0; i < countLimitAgain; i += 1) {
     if (i > 10) {
-      countLimit = 15;
+      countLimitAgain = 15;
     }
     console.log(i);
   }
 }
 
-// countToOneThousand();
+// countToOneThousandAgain();
 ```
 
 Ahora sí la función cuenta de `0` a `14`.
