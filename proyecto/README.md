@@ -65,14 +65,14 @@ Las entregas tendrán una duración aproximada de 2 semanas cada una. A continua
 - El avance logrado en cada entrega se evaluará en base a lo mostrado en Heroku en el momento de la reunión con el ayudante y a lo subido al repositorio Github en la fecha límite de la entrega.
 
 - Las entregas se evaluarán según la siguiente escala:
-  _ Nota A: Muy buen trabajo. Avance mayor del solicitado; excede expectativas.
-  _ Nota B: Buen trabajo. En línea con la exigencia.
-  _ Nota C: Regular. Bajo el avance esperado.
-  _ Nota D: Malo. Muy por debajo de lo solicitado.
+  * Nota A: Muy buen trabajo. Avance mayor del solicitado; excede expectativas.
+  * Nota B: Buen trabajo. En línea con la exigencia.
+  * Nota C: Regular. Bajo el avance esperado.
+  * Nota D: Malo. Muy por debajo de lo solicitado.
 
-      	En el caso de que un grupo no entregue nada, la nota será de un 1.0.
+  En el caso de que un grupo no entregue nada, la nota será de un 1.0.
 
-      	Al final del semestre, estas notas serán promediadas considerando las siguientes equivalencias: A – 7.0, B – 5.5, C – 4.0, D – 3.0
+  Al final del semestre, estas notas serán promediadas considerando las siguientes equivalencias: A – 7.0, B – 5.5, C – 4.0, D – 3.0
 
 - Al igual que en los partidos de fútbol existirán las tarjetas amarilla y roja. En el caso de que el equipo docente detecte algún problema de funcionamiento en un grupo (o sea alertado), podrá colocar una tarjeta a el/los estudiante/s involucrado/s. Una tarjeta amarilla corresponde a una llamada de atención, luego de una tarjeta amarilla viene la tarjeta roja. **Esta última implica una nota final mínima (1.0) en el proyecto semestral**. Podría darse la situación de tarjeta roja directa.
 
