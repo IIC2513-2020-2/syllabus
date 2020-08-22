@@ -65,10 +65,10 @@ Las entregas tendrán una duración aproximada de 2 semanas cada una. A continua
 - El avance logrado en cada entrega se evaluará en base a lo mostrado en Heroku en el momento de la reunión con el ayudante y a lo subido al repositorio Github en la fecha límite de la entrega.
 
 - Las entregas se evaluarán según la siguiente escala:
-  * Nota A: Muy buen trabajo. Avance mayor del solicitado; excede expectativas.
-  * Nota B: Buen trabajo. En línea con la exigencia.
-  * Nota C: Regular. Bajo el avance esperado.
-  * Nota D: Malo. Muy por debajo de lo solicitado.
+  - Nota A: Muy buen trabajo. Avance mayor del solicitado; excede expectativas.
+  - Nota B: Buen trabajo. En línea con la exigencia.
+  - Nota C: Regular. Bajo el avance esperado.
+  - Nota D: Malo. Muy por debajo de lo solicitado.
 
   En el caso de que un grupo no entregue nada, la nota será de un 1.0.
 
@@ -83,12 +83,12 @@ Las entregas tendrán una duración aproximada de 2 semanas cada una. A continua
 - La aplicación debe desarrollarse en **Node.js** y **koa**.
 
 - Para el cliente, deberán usar HTML, CSS y JavaScript.
-  _ Será posible utilizar ES6+
-  _ El templating engine soportado será EJS (con HTML); pero si lo desean podrán usar otros lenguajes de templates bajo su responsabilidad.
-  _ Podrán usar SASS/SCSS, less, stylus u otros preprocesadores de CSS. En clases usaremos SCSS pues es más cercano a CSS que los demás.
-  _ **NO está permitido** el uso de lenguajes que compilen a JavaScript, como CoffeeScript o TypeScript.
-  _ Tampoco podrán usar librerías de componentes HTML/CSS/JS como Twitter Bootstrap o Zurb Foundation, salvo una que otra excepción (aquí deberán consultar en el [foro](../../../#foro)). Pero si quieren, ¡vean su código fuente y úsenlos de inspiración!
-  _ Cualquier package o librería adicional que quieran usar debe ser aprobado por el equipo docente. Revisen [la Wiki](../../../wiki/Packages) y pregunten a través del [foro del curso](../../../#foro) si tienen dudas.
+  - Será posible utilizar ES6+
+  - El templating engine soportado será EJS (con HTML); pero si lo desean podrán usar otros lenguajes de templates bajo su responsabilidad.
+  - Podrán usar SASS/SCSS, less, stylus u otros preprocesadores de CSS. En clases usaremos SCSS pues es más cercano a CSS que los demás.
+  - **NO está permitido** el uso de lenguajes que compilen a JavaScript, como CoffeeScript o TypeScript.
+  - Tampoco podrán usar librerías de componentes HTML/CSS/JS como Twitter Bootstrap o Zurb Foundation, salvo una que otra excepción (aquí deberán consultar en el [foro](../../../#foro)). Pero si quieren, ¡vean su código fuente y úsenlos de inspiración!
+  - Cualquier package o librería adicional que quieran usar debe ser aprobado por el equipo docente. Revisen [la Wiki](../../../wiki/Packages) y pregunten a través del [foro del curso](../../../#foro) si tienen dudas.
 
 ## Recomendaciones
 
