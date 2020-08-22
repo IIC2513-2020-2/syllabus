@@ -32,7 +32,7 @@ Vamos a comenzar con unos ejemplos para entender el scope en JavaScript. [Podrá
 
 Ok, ¿terminaste? Perfecto, podemos continuar.
 
-> **Disclaimer**: los siguientes ejercicios involucran investigación de tu parte, pues tendrás que usar métodos que no vimos explícitamente en clases. Si te surgen dudas (y ojalá sea sí) puedes [utilizar las issues](../../../../issues), o también podemos verlo en clases 😉
+> **Disclaimer**: los siguientes ejercicios involucran investigación de tu parte, pues tendrás que usar métodos que no vimos explícitamente en clases. Si te surgen dudas (y ojalá sea sí) puedes [utilizar las issues](../../../../../issues), o también podemos verlo en clases 😉
 
 ## Arrays
 
