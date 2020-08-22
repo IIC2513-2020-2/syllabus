@@ -9,7 +9,7 @@ Los enunciados dan la línea general de la funcionalidad que deben implementar, 
 Cada equipo tiene asignado un proyecto y un ayudante que los guiará y evaluará durante el semestre. Las asignaciones de proyecto y ayudante están detalladas aquí:
 
 | Grupo               | Proyecto                                                                                         | Ayudante         |
-| ------------------- | ------------------------------------------------------------------------------------------------ | ---------------- |
+| :------------------ | :----------------------------------------------------------------------------------------------- | :--------------- |
 | 404                 | [Gymvirtual](https://drive.google.com/file/d/114ZpPnVGoyF61ECVg-0bjZQ0c4fq4yNH/view?usp=sharing) | Jorge Becerra    |
 | Albani              | [RateUp](https://drive.google.com/file/d/1pIGzFwwWueyIgEWA7IBtIu7NQEp-EJKl/view?usp=sharing)     | Moisés Retamal   |
 | Brotherhood         | [Team Patch](https://drive.google.com/file/d/1FScvSYJQSRfsgYNPbPLocIBWDtknFO83/view?usp=sharing) | Andrés Pincheira |
