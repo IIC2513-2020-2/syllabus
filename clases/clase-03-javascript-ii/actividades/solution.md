@@ -1,8 +1,6 @@
-# Actividad Introducción a JavaScript Parte II
+# Solución Actividad Introducción a JavaScript Parte II
 
-> [Código en RunKit](https://runkit.com/sivicencio/5f4060619274cb001351aaa5)
-
-**Solución**: [haz click aquí](solution.md)
+> [Código en RunKit](https://runkit.com/sivicencio/5f556fc2b605a8001ffbd00f)
 
 ## Scopes
 
@@ -62,6 +60,9 @@ En primer lugar, debes recorrer el arreglo con `for` e imprimir cada uno de sus 
 ```javascript
 // Arreglos: recorrer arreglo con for
 // Your code here
+for (let i = 0; i < names.length; i += 1) {
+  console.log(names[i]);
+}
 ```
 
 ### Recorriendo arreglo con `forEach`
@@ -71,6 +72,7 @@ Ahora implementa lo mismo, pero utilizando el método `forEach` de un arreglo. P
 ```javascript
 // Arreglos: recorrer arreglo con forEach
 // Your code here
+names.forEach(name => console.log(name));
 ```
 
 ### Una lista de usuarios
@@ -341,6 +343,8 @@ Para esto debes utilizar el método `map` de un arreglo. Puedes [ver la document
 ```javascript
 // Arreglos: transformar lista de usuarios
 // Your code here
+const mappedNames = users.map(user => `${user.name} (${user.email}) - Work: ${user.company.name}`)
+console.log(mappedNames);
 ```
 
 ### Filtrando resultados con `filter`
@@ -352,6 +356,8 @@ Para realizar lo anterior debes utilizar el método `filter` de un arreglo. Pued
 ```javascript
 // Arreglos: Filtrar lista de usuarios
 // Your code here
+const filteredUsers = users.filter(user => user.age < 30);
+console.log(filteredUsers);
 ```
 
 ## Objetos
@@ -365,7 +371,7 @@ En primer lugar, existe el método `Object.keys()`, que recibe un objeto, y nos 
 ```javascript
 const user = users[0];
 // Descomenta la siguiente línea
-// Object.keys(user)
+Object.keys(user)
 ```
 
 Una práctica bastante utilizada es tomar las keys para iterar sobre cada valor de un objeto. En el siguiente ejercicio deberás recorrer las keys del objeto para tomar sólo los valores y guardarlos en un arreglo. Algo del código ya está implementado, pero debes completar lo solicitado.
@@ -374,7 +380,9 @@ Una práctica bastante utilizada es tomar las keys para iterar sobre cada valor 
 const userValues = [];
 Object.keys(user).forEach((userKey) => {
   // Write your code here
+  userValues.push(user[userKey]);
 });
+console.log(userValues);
 ```
 
 Bien, ahora para que no tengas que hacer siempre eso, existe un método similar a `Object.keys`, pero para obtener los values: `Object.values(user)`.
@@ -392,16 +400,50 @@ Vamos construir un pequeño objeto que represente una todo list. Esta lista tend
 ```javascript
 const todoListObj = {
   // Write your code here
+  todoList: [],
+  remember: function(task) {
+    this.todoList.push(task);
+  },
+  prioritize: function(task) {
+    this.todoList.unshift(task);
+  },
+  getTask: function() {
+    return this.todoList.shift();
+  },
+  show: function() {
+    this.todoList.forEach(a => console.log(a));
+  }
 }
 ```
 
 Puedes probar los distintos métodos para ver si funciona tu implementación. Por ejemplo, llamar un par de veces a `remember`, algunas otras a `prioritize`, a `show` para ver el estado de tu lista, luego `getTask`, y luego nuevamente a `show` para ver si eliminió la tarea tomada recientemente.
 
+```javascript
+todoListObj.remember('terminar esto');
+todoListObj.remember('lavarme los dientes');
+todoListObj.prioritize('publicar actividades');
+todoListObj.show();
+console.log(todoListObj.getTask());
+todoListObj.show();
+```
+
 La lista anterior sólo le serviría a una persona. ¿Y si queremos que varias personas tengan su propia lista? Necesitamos una forma de generar objetos que tengan la misma estructura. Para eso precisamente podemos utilizar los constructores (o funciones constructoras). En clases vimos que son funciones normales, pero que luego se pueden llamar con el keyword `new` para crear una instancia de un objeto. Completa el siguiente código para tener un constructor para el todo list.
 
 ```javascript
 function TodoList(todoList = []) {
-
+  this.todoList = todoList;
+  this.remember = function(task) {
+    this.todoList.push(task);
+  };
+  this.prioritize = function(task) {
+    this.todoList.unshift(task);
+  };
+  this.getTask = function() {
+    return this.todoList.shift();
+  };
+  this.show = function() {
+    this.todoList.forEach(a => console.log(a));
+  };
 }
 ```
 
@@ -410,8 +452,14 @@ Si te fijas, le estamos dando un arreglo vacío como argumento predeterminado. E
 Finalmente, prueba creando dos listas para ver que se comportan de la manera esperada:
 
 ```javascript
-// const oneList = new TodoList();
-// const anotherList = new TodoList();
+const oneList = new TodoList();
+const anotherList = new TodoList();
+
+oneList.remember('terminar esto');
+anotherList.remember('lavarme los dientes');
+oneList.prioritize('publicar actividades');
+oneList.show();
+anotherList.show();
 ```
 
 ## Aplicando todo lo anterior
