@@ -416,4 +416,4 @@ Finalmente, prueba creando dos listas para ver que se comportan de la manera esp
 
 > Un problema realista
 
-*Este ejercicio será subido dentro de los próximos días*
+En este ejercicio vamos a utilizar el mismo array de usuarios, esta vez para crear funcionalidad interesante asociada a objetos. [Podrás encontrar el detalle de este ejercicio aquí](finders.md)
