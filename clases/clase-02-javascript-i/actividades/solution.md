@@ -1,8 +1,6 @@
-# Actividad Introducción a JavaScript Parte I
+# Solución Actividad Introducción a JavaScript Parte I
 
-> [Código en RunKit](https://runkit.com/sivicencio/5f166db6c06ba6001aaee085)
-
-**Solución**: [haz click aquí](solution.md)
+> [Código en RunKit](https://runkit.com/sivicencio/5f55680e2eca27001ad39230)
 
 Vamos a poner en práctica el uso de los elementos fundamentales de JavaScript. Comenzaremos con lo más básico y luego iremos incrementando la complejidad. Como recomendación, haz todos los ejercicios, a pesar de que tal vez podrían parecerte muy básicos. Recuerda que estamos construyendo la base para todo lo que viene en el resto del curso.
 
@@ -32,6 +30,7 @@ Lo primero que debes hacer es imprimir en consola "4 es un número". Puedes util
 ```javascript
 // Consola
 // Write your solution here
+console.log(`${myNumber + 2} es un número`)
 ```
 
 Ahora que ya tienes lo anterior, tu tarea será utilizarlo para escribir un loop que imprima los números pares del 2 al 20. Puedes utilizar `while` o `for`.
@@ -39,6 +38,9 @@ Ahora que ya tienes lo anterior, tu tarea será utilizarlo para escribir un loop
 ```javascript
 // Números pares
 // Write your solution here
+for (let i = 0; i < 20; i += 2) {
+  console.log(`${myNumber + i} es un número`);
+}
 ```
 
 ## FizzBuzz
@@ -54,6 +56,12 @@ Debes escribir un programa que imprima en consola (utilizando `console.log`) los
 ```javascript
 // FizzBuzz
 // Write your solution here
+for (let i = 1; i < 101; i += 1) {
+  if (i % 3 === 0 && (i % 5 === 0) ) console.log('FizzBuzz');
+  else if (i % 3 === 0) console.log('Fizz');
+  else if (i % 5 === 0) console.log('Buzz');
+  else console.log(i);
+}
 ```
 
 ## Comunas Paso a Paso
@@ -80,6 +88,15 @@ function getStep() {
 ```javascript
 // Comunas Paso a Paso
 // Write your solution here
+let size = Math.sqrt(25);
+let result = '';
+for (let i = 0; i < size; i += 1) {
+  for (let j = 0; j < size; j += 1) {
+    result += `${getStep()} `;
+  }
+  result += '\n'; 
+}
+console.log(result);
 ```
 
 Bien, ya podemos ver el paso en el que se encuentra cada comuna, pero tenemos que detenernos a ver el número para saber si es seguro realizar ciertas actividades. ¿Qué pasa si queremos salir a caminar? Mejoremos un poco el código anterior para que veamos de forma más directa si es seguro salir a caminar en cada comuna o no (tomando las precauciones necesarias, como **salir siempre con mascarilla, no estar a menos de un metro de otras personas, y lavarnos las manos con jabón al volver a casa**). ¡Ya nuestro cuerpo y mente lo pide!
@@ -89,6 +106,15 @@ Para esto, vamos a considerar que en todas las comunas que se encuentren en el p
 ```javascript
 // Comunas Paso a Paso: Salir a caminar
 // Write your solution here
+size = Math.sqrt(25);
+result = '';
+for (let i = 0; i < size; i += 1) {
+  for (let j = 0; j < size; j += 1) {
+    result += `${getStep() >= 3 ? 'S' : 'X'} `;
+  }
+  result += '\n'; 
+}
+console.log(result);
 ```
 
 Súper, ya es mucho más directo ver si podemos salir a caminar o no. Sin embargo, no todas las ciudades están compuestas de 25 comunas, que es el caso fijo que consideramos hasta ahora. Tu trabajo será implementar una función que reciba el número de comunas dentro de una ciudad, y retorne un string como el construido anteriormente. Considera lo siguiente:
@@ -102,7 +128,18 @@ Prueba la implementación de tu función con distintos valores para el total de 
 function displayCitySteps(total) {
   // Comunas Paso a Paso: Encapsular en función
   // Write your code here
+  let size = Math.floor(Math.sqrt(total));
+  result = '';
+  for (let i = 0; i < size; i += 1) {
+    for (let j = 0; j < size; j += 1) {
+      result += `${displayState(getStep())} `;
+    }
+    result += '\n'; 
+  }
+  return result;
 }
+
+displayCitySteps(64);
 ```
 
 Lo que hemos hecho hasta el momento es imprimir el paso en el que se encuentra una determinada comuna, y luego lo modificamos para que nos muestre si es seguro salir a caminar o no. Si quisiéramos cambiar una vez más qué mostramos para cada comuna, puede ser un poco tedioso tener que modificar la función que imprime el escenario de la ciudad.
@@ -111,6 +148,33 @@ Podemos abstraer qué se muestra para cada comuna en una nueva función, que rec
 
 ```javascript
 // Write your code here
+/* Naming scheme
+   - Step 2: 'B'
+   - Step 3: 'S'
+   - Step 4: 'M'
+   - Step 5: 'P'
+   - Default: 'X'
+*/
+function displayState(step) {
+  let output;
+  switch (step) {
+    case 2:
+      output = 'B';
+      break;
+    case 3:
+      output = 'S';
+      break;
+    case 4:
+      output = 'M';
+      break;
+    case 5:
+      output = 'P';
+      break;
+    default:
+      output = 'X';
+  }
+  return output;
+}
 ```
 
 Finalmente, si queremos incluir más actividades, como salir a comprar, ir al cine o ir a un bar, sólo debemos modificar esta última función. Haz los cambios que consideres necesarios para que muestre si podemos salir a comprar (paso 2), salir a caminar (paso 3), salir al cine (paso 4) y salir a un bar (paso 5). Puedes elegir tu propia nomenclatura.
