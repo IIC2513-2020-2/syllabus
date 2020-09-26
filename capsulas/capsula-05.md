@@ -1,4 +1,4 @@
-# Cápsula 04 - Validación recurso
+# Cápsula 05 - Validación recurso
 
 > [Video-cápsula](https://drive.google.com/file/d/161Mn8ZMUKftoR0QD5Ujff071gxSlamn4/view?usp=sharing) (requiere haber iniciado sesión con cuenta UC)
 
