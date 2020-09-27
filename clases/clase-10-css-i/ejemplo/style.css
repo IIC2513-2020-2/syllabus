@@ -1,0 +1,40 @@
+body {
+  background-color: #444;
+  color: white;
+}
+
+main .main-container h1 {
+  color: red;
+  font-size: 48px;
+}
+
+p::first-letter {
+  font-size: 50px;
+}
+
+p:hover {
+  background-color: yellow;
+}
+
+p {
+  color: red;
+}
+
+.main-article p {
+  color: blue;
+}
+
+.secondary-article {
+  background-color: white;
+  color: black;
+}
+
+#my-article {
+  background-color: black;
+  color: white;
+}
+
+article {
+  background-color: #37474F;
+  color: #FFD966;
+}
