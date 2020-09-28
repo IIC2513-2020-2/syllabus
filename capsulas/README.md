@@ -8,3 +8,5 @@ Aquí encontrarán diferentes video-cápsulas explicando temas complementarios a
 - [Cápsula 04](capsula-04.md)
 - [Cápsula 05](capsula-05.md)
 - [Cápsula 06](capsula-06.md)
+- [Cápsula 07](capsula-07.md)
+- [Cápsula 08](capsula-08.md)
