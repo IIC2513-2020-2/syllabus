@@ -200,6 +200,8 @@ Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categoría
 * [Inválida](../../labels/Inv%C3%A1lida): la pregunta no cumple los estándares o viola el procedimiento descrito abajo.
 * [Meta-pregunta](../../labels/Meta-Pregunta): pregunta sobre cómo y qué preguntar.
 * [Tengo un error](../../labels/Tengo%20un%20error): para preguntar sobre errores o bugs en códigos antes de caer en la desesperación (pero luego de haber buscado apropiadamente en la Web...).
+* [Heroku](../../labels/Heroku): para preguntar sobre errores o dudas que pueden tener con Heroku y el _deploy_ de su _app_.
+* [Postgres](../../labels/Postgres): para preguntar sobre errores o dudas que pueden tener con el manejo de su base de datos.
 * [Importante](../../labels/Importante): issues con información importante que **deben** leer.
 
 ## Procedimiento
