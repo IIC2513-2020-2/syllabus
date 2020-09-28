@@ -2,6 +2,8 @@
 
 > [Código en RunKit](https://runkit.com/sivicencio/5f5563dbeced61001abcb4d7)
 
+**Solución**: [haz click aquí](finders-solution.md)
+
 Para este ejercicio utilizaremos el mismo array de usuarios de ejercicios anteriores. Partiremos definiéndolo:
 
 ```javascript
