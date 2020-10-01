@@ -41,7 +41,7 @@ Debes **implementar 4 funciones** que se encuentran dentro del archivo `src/form
 
 ## Pregunta 2 (2 pts)
 
-En esta pregunta trabajarás con datos de Pokémons. Los datos fueron obtenidos de [https://pokeapi.co/](https://pokeapi.co/) y [https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json](https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json). Similarmente, fueron descargados y levemente procesados para hacerlos más aptos para este problema.
+En esta pregunta trabajarás con datos de Pokémon. Los datos fueron obtenidos de [https://pokeapi.co/](https://pokeapi.co/) y [https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json](https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json). Similarmente, fueron descargados y levemente procesados para hacerlos más aptos para este problema.
 
 Trabajarás con el archivo `src/forma2/pregunta2.js`. Dentro de este, verás que tienes a tu disposición dos funciones:
 
