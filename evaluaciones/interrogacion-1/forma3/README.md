@@ -25,15 +25,16 @@ Puedes ver el detalle de los datos utilizando el objeto `covid` que fue puesto e
 Debes **implementar 4 funciones** que se encuentran dentro del archivo `src/forma3/pregunta1.js`. Todas reciben el parámetro `rawData` que corresponde a un objeto con la estructura de `covid.deaths`.
 
 1. `getTotalDeaths(rawData)`
-    - Función que **retorna un arreglo de objetos** con información de los fallecidos totales en el país en los 5 días que cubre el dataset
+    - Función que **retorna un arreglo de arreglos** con información de los fallecidos totales en el país en los 5 días que cubre el dataset. (**UPDATE**) En otras palabras, es el mismo arreglo "original" de la fuente de datos, pero con menos elementos.
     - Tendrás que mirar la estructura de los datos en bruto para encontrar una forma de identificar los fallecidos totales
     - Puedes utilizar igualdad de strings para encontrar los datos de los fallecidos totales
 2. `transformDeathsByRegion(rawData)`
-    - **Retorna un arreglo de objetos**, donde cada objeto tiene la forma `{ time, Muertos, Region }`
+    - **Retorna un arreglo de objetos**, donde cada objeto tiene la forma `{ time, Muertos, Region }`. (**UPDATE**) El arreglo resultante tendrá el mismo largo que el mismo arreglo "original" de la fuente de datos, sólo que cada elemento pasará a ser un objeto en vez de un arreglo
     - Para las keys de los objetos, debes utilizar la propiedad `columns` y no escribirlas "a mano"
 3. `getRegionWithMostDeaths(rawData)`
     - **Retorna un objeto** con la estructura `{ time, Muertos, Region }`, correspondiente a la región con más fallecidos (así sabremos cuándo, dónde y cuántos fallecidos hubo)
     - Puedes utilizar la función escrita en la parte anterior si se te hace más fácil encontrar el valor así. Si no, igual puedes obtenerlo procesando `rawData` directamente
+    - **UPDATE: DEBES** excluir los elementos `"Total"` para obtener este dato (de lo contrario, siempre obtendrías el total nacional, no la región)
 4. `getStaticticsByRegion(rawData)`
     - A partir de los datos en bruto (`rawData`), esta función **retorna un objeto** cuyas keys son las regiones y, para cada una, el value es otro objeto con la estructura `{ maxDeaths, worrying }`, donde:
       - `maxDeaths`: máximo número de fallecidos en los 5 días (debiese ser el más reciente, pues el dato es acumulado)

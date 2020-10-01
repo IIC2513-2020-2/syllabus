@@ -25,15 +25,16 @@ Puedes ver el detalle de los datos utilizando el objeto `covid` que fue puesto e
 Debes **implementar 4 funciones** que se encuentran dentro del archivo `src/forma1/pregunta1.js`. Todas reciben el parámetro `rawData` que corresponde a un objeto con la estructura de `covid.cases`.
 
 1. `getMostRecentCases(rawData)`
-    - Función que **retorna un arreglo de objetos** con información de todas las regiones correspondientes al día más reciente según los datos
+    - Función que **retorna un arreglo de arreglos** con información de todas las regiones correspondientes al día más reciente según los datos. (**UPDATE**) En otras palabras, es el mismo arreglo "original" de la fuente de datos, pero con menos elementos
     - Recuerda que los datos están ordenados. Te puede ayudar a obtener el día más reciente
     - Considerando que la fecha es un string, puedes utilizar igualdad de strings para encontrar los datos del día más reciente
 2. `transformCasesByRegion(rawData)`
-    - **Retorna un arreglo de objetos**, donde cada objeto tiene la forma `{ time, Casos_acumulados, Region }`
+    - **Retorna un arreglo de objetos**, donde cada objeto tiene la forma `{ time, Casos_acumulados, Region }`. (**UPDATE**) El arreglo resultante tendrá el mismo largo que el mismo arreglo "original" de la fuente de datos, sólo que cada elemento pasará a ser un objeto en vez de un arreglo
     - Para las keys de los objetos, debes utilizar la propiedad `columns` y no escribirlas "a mano"
 3. `getRegionWithMostCases(rawData)`
     - **Retorna un objeto** con la estructura `{ time, Casos_acumulados, Region }`, correspondiente a la región con más casos (así sabremos cuándo, dónde y cuántos casos hubo)
     - Puedes utilizar la función escrita en la parte anterior si se te hace más fácil encontrar el valor así. Si no, igual puedes obtenerlo procesando `rawData` directamente
+    - **UPDATE: DEBES** excluir los elementos `"Total"` para obtener este dato (de lo contrario, siempre obtendrías el total nacional, no la región)
 4. `getStaticticsByRegion(rawData)`
     - A partir de los datos en bruto (`rawData`), esta función **retorna un objeto** cuyas keys son las regiones y, para cada una, el value es otro objeto con la estructura `{ avgCases, maxCases }`, donde:
       - `avgCases`: número de casos promedio en los 5 días

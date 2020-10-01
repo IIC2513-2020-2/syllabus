@@ -25,11 +25,11 @@ Puedes ver el detalle de los datos utilizando el objeto `covid` que fue puesto e
 Debes **implementar 4 funciones** que se encuentran dentro del archivo `src/forma2/pregunta1.js`. Todas reciben el parámetro `rawData` que corresponde a un objeto con la estructura de `covid.pcr`.
 
 1. `getOldestPcrs(rawData)`
-    - Función que **retorna un arreglo de objetos** con información de todas las regiones correspondientes al día más antiguo según los datos
+    - Función que **retorna un arreglo de arreglos** con información de todas las regiones correspondientes al día más antiguo según los datos. (**UPDATE**) En otras palabras, es el mismo arreglo "original" de la fuente de datos, pero con menos elementos
     - Recuerda que los datos están ordenados. Te puede ayudar a obtener el día más antiguo
     - Considerando que la fecha es un string, puedes utilizar igualdad de strings para encontrar los datos del día más antiguo
 2. `transformPcrsByRegion(rawData)`
-    - **Retorna un arreglo de objetos**, donde cada objeto tiene la forma `{ time, Total, Region }`
+    - **Retorna un arreglo de objetos**, donde cada objeto tiene la forma `{ time, Total, Region }`. (**UPDATE**) El arreglo resultante tendrá el mismo largo que el mismo arreglo "original" de la fuente de datos, sólo que cada elemento pasará a ser un objeto en vez de un arreglo
     - Para las keys de los objetos, debes utilizar la propiedad `columns` y no escribirlas "a mano"
 3. `getRegionWithLeastPcrs(rawData)`
     - **Retorna un objeto** con la estructura `{ time, Total, Region }`, correspondiente a la región con menos PCRs (así sabremos cuándo, dónde y cuántos se hicieron)
