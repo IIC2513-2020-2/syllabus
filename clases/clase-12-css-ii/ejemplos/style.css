@@ -1,0 +1,75 @@
+body {
+  background-color: #444;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+main .main-container h1 {
+  color: red;
+  font-size: 48px;
+}
+
+p::first-letter {
+  font-size: 50px;
+}
+
+p:hover {
+  background-color: yellow;
+}
+
+p {
+  color: red;
+}
+
+.main-article p {
+  color: blue;
+}
+
+.secondary-article {
+  background-color: white;
+  color: black;
+}
+
+#my-article {
+  background-color: black;
+  color: white;
+}
+
+article {
+  background-color: #37474F;
+  color: #FFD966;
+}
+
+.header {
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.header .logo {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background-color: #CCC;
+}
+
+.header ul li {
+  display: inline-block;
+  background-color: black;
+  color:white;
+  padding: 20px 50px;
+}
+
+.secondary-article section {
+  width: 500px;
+  background-color: cyan;
+  padding: 30px 10px 50px;
+  border-right: 5px solid red;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
