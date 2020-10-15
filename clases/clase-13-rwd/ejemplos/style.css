@@ -1,0 +1,148 @@
+body {
+  background-color: #37474F;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  /* When using fixed header */
+  /* margin-top: 100px; */
+}
+
+main .main-container h1 {
+  color: red;
+  font-size: 48px;
+}
+
+p::first-letter {
+  font-size: 50px;
+}
+
+p:hover {
+  background-color: yellow;
+}
+
+p {
+  color: red;
+}
+
+.main-article {
+  padding: 10px;
+}
+
+.main-article section {
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.main-article p {
+  color: blue;
+}
+
+.secondary-article {
+  background-color: white;
+  color: black;
+}
+
+#my-article {
+  background-color: black;
+  color: white;
+}
+
+article {
+  color: #FFD966;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: white;
+  padding: 0 10%;
+  display: flex;
+  position: sticky;
+  top: 0;
+  /* When using fixed header */
+  /* position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box; */
+  
+}
+
+.header .logo {
+  width: 100px;
+  text-align: center;
+  background-color: #CCC;
+}
+
+.header ul {
+  flex: 1;
+}
+
+.header ul li {
+  display: inline-block;
+  background-color: black;
+  color:white;
+  width: 25%;
+  padding: 20px 50px;
+  margin-right: -4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.header ul li:hover {
+  background-color: #CCC;
+  color: #444;
+  cursor: pointer;
+}
+
+.secondary-article section {
+  padding: 30px 10px 50px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #444;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 0;
+}
+
+.articles-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.articles-grid {
+  display: grid;
+  grid-gap: 20px;
+}
+
+@media screen and (min-width: 501px) {
+  .articles-container .main-article {
+    flex: 1;
+  }
+
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 961px) {
+  .articles-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
