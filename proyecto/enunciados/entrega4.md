@@ -1,6 +1,6 @@
 # Entrega 4
 
-Fecha límite: 29 de octubre, 23:59 hrs.
+Fecha límite: 30 de octubre, 23:59 hrs.
 
 ## Introducción
 
