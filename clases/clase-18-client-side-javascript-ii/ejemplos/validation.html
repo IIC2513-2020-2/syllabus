@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS validation example</title>
+    <link rel="stylesheet" href="validation.css" />
+  </head>
+  <body>
+    <div class="centered">
+      <h1>Registro</h1>
+      <form>
+        <div class="field">
+          <label for="name">Nombre</label>
+          <div class="input-content">
+            <input type="text" id="name" name="name" />
+            <span class="error"></span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">E-mail</label>
+          <div class="input-content">
+            <input type="email" id="email" name="email" />
+            <span class="error"></span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="password">Contraseña</label>
+          <div class="input-content">
+            <input type="password" id="password" name="password" />
+            <span class="error"></span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <input type="submit" value="Crear cuenta" />
+        </div>
+      </form>
+    </div>
+    <script src="validation.js"></script>
+  </body>
+</html>

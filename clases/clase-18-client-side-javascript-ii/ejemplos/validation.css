@@ -1,0 +1,47 @@
+body {
+  background-color: #37474F;
+  margin: 0;
+  padding: 0;
+}
+.centered {
+  width: 60%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 40px auto;
+}
+
+form {
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.field {
+  display: flex;
+  height: 50px;
+}
+
+.field label {
+  flex: 1;
+}
+
+.field .input-content {
+  flex: 3;
+}
+
+.field input {
+  width: 100%;
+}
+
+.invalid {
+  border-color: red;
+}
+
+.invalid:focus {
+  outline: none;
+}
+
+.error {
+  color: red;
+}
