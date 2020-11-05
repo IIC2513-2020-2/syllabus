@@ -1,6 +1,8 @@
 # Clase 19: Client-side frameworks
 
 > [Video de la clase](https://drive.google.com/file/d/1erwc3GnBRtttgLLJ_h68OnimL1lPuyVz/view?usp=sharing) (requiere haber iniciado sesión con cuenta UC)
+>
+> [Video-cápsula con segunda parte de la clase](https://drive.google.com/file/d/1BPG_V1rGvRfd-WaSrtvAU1vIPcTdVkHH/view?usp=sharing) (requiere haber iniciado sesión con cuenta UC). [Link a detalle cápsula](../../capsulas/capsula-10.md)
 
 ## Temas
 - Client-side frameworks
