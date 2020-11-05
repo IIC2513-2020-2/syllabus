@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React photos example</title>
+    <style>
+      body {
+        background-color: #37474F;
+        margin: 0;
+        padding: 0;
+      }
+      .centered {
+        width: 70%;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 40px auto;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+      .photos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        list-style: none;
+        margin-top: 20px;
+      }
+      .photo {
+        padding: 10px;
+        border: 1px solid #444;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" class="centered">
+      <!-- The following lines are commented just to see the HTML we want to generate with React -->
+      <!-- <h1>React Photos</h1>
+      <button>Load from endpoint</button>
+      <ul class="photos">
+        <li class="photo">
+          <h3>accusamus beatae ad facilis cum similique qui sunt</h3>
+          <img src="https://via.placeholder.com/150/92c952" />
+        </li>
+      
+        <li class="photo">
+          <h3>reprehenderit est deserunt velit ipsam</h3>
+          <img src="https://via.placeholder.com/150/771796" />
+        </li>
+      
+        <li class="photo">
+          <h3>officia porro iure quia iusto qui ipsa ut modi</h3>
+          <img src="https://via.placeholder.com/150/24f355" />
+        </li>          
+      </ul> -->
+    </div>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js" ></script>
+    <script type="text/babel">
+      function Photos(props) {
+        const photosArray = [
+          {
+            albumId: 1,
+            id: 1,
+            title: "accusamus beatae ad facilis cum similique qui sunt",
+            url: "https://via.placeholder.com/600/92c952",
+            thumbnailUrl: "https://via.placeholder.com/150/92c952",
+          },
+          {
+            albumId: 1,
+            id: 2,
+            title: "reprehenderit est deserunt velit ipsam",
+            url: "https://via.placeholder.com/600/771796",
+            thumbnailUrl: "https://via.placeholder.com/150/771796",
+          },
+          {
+            albumId: 1,
+            id: 3,
+            title: "officia porro iure quia iusto qui ipsa ut modi",
+            url: "https://via.placeholder.com/600/24f355",
+            thumbnailUrl: "https://via.placeholder.com/150/24f355",
+          },
+        ];
+
+        return (
+          <div>
+            <h1>React Photos</h1>
+            <Button />
+            <ul className="photos">
+              {photosArray.map((photo) => (
+                <SinglePhoto key={photo.id} photo={photo} />
+              ))}
+            </ul>
+          </div>
+        );
+      }
+
+      function Button(props) {
+        return (
+          <button>Load from endpoint</button>
+        );
+      }
+
+      function SinglePhoto(props) {
+        const { photo } = props;
+        return (
+          <li className="photo">
+            <h3>{photo.title}</h3>
+            <img src={photo.thumbnailUrl} />
+          </li>
+        );
+      }
+
+      const rootNode = document.getElementById('root');
+      ReactDOM.render(<Photos />, rootNode);
+    </script>
+  </body>
+</html>
