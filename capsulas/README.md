@@ -12,3 +12,4 @@ Aquí encontrarán diferentes video-cápsulas explicando temas complementarios a
 - [Cápsula 08](capsula-08.md)
 - [Cápsula 09](capsula-09.md)
 - [Cápsula 10](capsula-10.md)
+- [Cápsula 11](capsula-11.md)
