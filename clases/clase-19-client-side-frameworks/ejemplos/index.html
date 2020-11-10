@@ -65,37 +65,52 @@
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js" ></script>
     <script type="text/babel">
+      const INITIAL_STATE = [
+        {
+          albumId: 1,
+          id: 1,
+          title: "accusamus beatae ad facilis cum similique qui sunt",
+          url: "https://via.placeholder.com/600/92c952",
+          thumbnailUrl: "https://via.placeholder.com/150/92c952",
+        },
+        {
+          albumId: 1,
+          id: 2,
+          title: "reprehenderit est deserunt velit ipsam",
+          url: "https://via.placeholder.com/600/771796",
+          thumbnailUrl: "https://via.placeholder.com/150/771796",
+        },
+        {
+          albumId: 1,
+          id: 3,
+          title: "officia porro iure quia iusto qui ipsa ut modi",
+          url: "https://via.placeholder.com/600/24f355",
+          thumbnailUrl: "https://via.placeholder.com/150/24f355",
+        },
+      ];
+
+      const URL = 'http://jsonplaceholder.typicode.com/albums/1/photos';
+
+      async function fetchData(url) {
+        const response = await fetch(url, { Accept: 'application/json' });
+        return response.json();
+      };
+
       function Photos(props) {
-        const photosArray = [
-          {
-            albumId: 1,
-            id: 1,
-            title: "accusamus beatae ad facilis cum similique qui sunt",
-            url: "https://via.placeholder.com/600/92c952",
-            thumbnailUrl: "https://via.placeholder.com/150/92c952",
-          },
-          {
-            albumId: 1,
-            id: 2,
-            title: "reprehenderit est deserunt velit ipsam",
-            url: "https://via.placeholder.com/600/771796",
-            thumbnailUrl: "https://via.placeholder.com/150/771796",
-          },
-          {
-            albumId: 1,
-            id: 3,
-            title: "officia porro iure quia iusto qui ipsa ut modi",
-            url: "https://via.placeholder.com/600/24f355",
-            thumbnailUrl: "https://via.placeholder.com/150/24f355",
-          },
-        ];
+        const [photos, setPhotos] = React.useState(INITIAL_STATE);
+
+        function handleClick() {
+          fetchData(URL).then((response) => setPhotos(response));
+        };
+
+        console.log('Render');
 
         return (
           <div>
             <h1>React Photos</h1>
-            <Button />
+            <Button onClick={handleClick} />
             <ul className="photos">
-              {photosArray.map((photo) => (
+              {photos.map((photo) => (
                 <SinglePhoto key={photo.id} photo={photo} />
               ))}
             </ul>
@@ -105,7 +120,7 @@
 
       function Button(props) {
         return (
-          <button>Load from endpoint</button>
+          <button onClick={props.onClick}>Load from endpoint</button>
         );
       }
 
