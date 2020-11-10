@@ -1,6 +1,6 @@
 # Entrega 5
 
-Fecha límite: 12 de noviembre, 23:59 hrs.
+Fecha límite: 15 de noviembre, 23:59 hrs.
 
 ## Introducción
 

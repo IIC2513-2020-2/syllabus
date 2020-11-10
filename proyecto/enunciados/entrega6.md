@@ -1,6 +1,6 @@
 # Proyecto Semestral - Entrega 6
 
-Fecha límite: 27 de noviembre, 23:59 hrs.
+Fecha límite: 30 de noviembre, 23:59 hrs.
 
 # Introducción
 
