@@ -5,6 +5,8 @@
 > [Video-cápsula con segunda parte de la clase del 05 de noviembre](https://drive.google.com/file/d/1BPG_V1rGvRfd-WaSrtvAU1vIPcTdVkHH/view?usp=sharing) (requiere haber iniciado sesión con cuenta UC). [Link a detalle cápsula](../../capsulas/capsula-10.md)
 >
 > [Video de la clase del 10 de noviembre](https://drive.google.com/file/d/1bLLQsn9u1ts22DIVRl0cl1vaexvkloku/view?usp=sharing) (requiere haber iniciado sesión con cuenta UC)
+>
+> [Video de la clase del 12 de noviembre](https://drive.google.com/file/d/1EcJw51_zVkw6W7Q-EDcaMM0ufqyMNk87/view?usp=sharing) (requiere haber iniciado sesión con cuenta UC)
 
 ## Temas
 - Client-side frameworks
@@ -32,6 +34,7 @@
   - Event handling
   - Ciclo de vida de un componente
   - Side effects (`useEffect`)
+- Ejemplo práctico en savetalk: botón RSVP
 
 ## Recursos
 
