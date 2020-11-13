@@ -14,3 +14,4 @@ Aquí encontrarán diferentes video-cápsulas explicando temas complementarios a
 - [Cápsula 10](capsula-10.md)
 - [Cápsula 11](capsula-11.md)
 - [Cápsula 12](capsula-12.md)
+- [Cápsula 13](capsula-13.md)
