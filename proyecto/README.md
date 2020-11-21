@@ -78,6 +78,51 @@ Las entregas tendrán una duración aproximada de 2 semanas cada una. A continua
 
 - El equipo docente, al final de semestre, escogerá aquellos proyectos que sobresalgan. Estos grupos tendrán la posibilidad de presentar, durante la última semana de clases, su proyecto. Aquellos grupos que presenten terminarán con nota 7 final en el proyecto. Es posible que puedan haber algunos requisitos para la obtención de esta nota.
 
+## Evaluación
+
+El proyecto constituye la Nota Práctica del curso, la cual se calcula de la siguiente forma:
+
+```
+Nota Práctica: (Promedio entregas parciales) * 0.5 + (Entrega final) * 0.5
+```
+
+### Entrega Final
+
+La Entrega Final, cuya ponderación es 50% de la Nota Práctica, se divide a su vez en los siguientes 3 items a evaluar (con sus correspondientes ponderaciones):
+1. Evaluación técnica (50%)
+2. Documentación proyecto (30%)
+3. Producto final (20%)
+
+#### Evaluación técnica
+
+Se evaluarán los aspectos técnicos y buenas prácticas de su aplicación, según los siguientes criterios:
+- No usar Inline CSS
+- No usar html para estilo ni posicionamiento (sin tablas, plus si usan html5)
+- Unobstrusive JS y/o uso apropiado de React
+- Construir las rutas o URL de links usando ctx.router.url o similar (en lugar de hardcoded)
+- Usar Sequelize API para consultas a la BD por sobre SQL (a menos que no se pueda o SQL sea mucho más eficiente)
+- Validaciones bien definidas en los modelos
+- Convenciones JavaScript (camelCase y otras buenas prácticas del lenguaje - Linter)
+- No usar consultas Sequelize o lógica muy compleja en las vistas
+- Sacar provecho de middlewares (sobre todo para reutilizar lógica)
+- No escribir funciones gigantes en los route helpers ("fat models / skinny controllers")
+- Resource oriented (rutas que evidencien recursos)
+- Usar métodos donde corresponden (MVC)
+
+Todos los puntos anteriores tienen igual importancia en la evaluación técnica, es decir, no existen ponderaciones para calcular la nota de este ítem.
+
+#### Documentación proyecto
+
+ Deben construir una documentación final de su aplicación. Ésta debe describir la aplicación en sus aspectos internos: arquitectura, modelo de datos, detalles interesantes de implementación, documentación API, etc. Debe estar orientado a que otras personas puedan continuar el desarrollo de su aplicación.
+
+ El nivel de detalle requerido de la documentación es bastante amplio, en el sentido de que no se exigirá un formato específico, más allá de los puntos planteados en el párrafo anterior. Pueden conversar y definir con su ayudante lo que se espera para su caso particular.
+
+#### Producto final
+
+Este ítem evalúa el producto de software final que entregarán, independiente de las entregas parciales (donde cada una tiene un objetivo específico). Se evaluará el nivel de avance y logro respecto a lo esperado inicialmente para el proyecto que les tocó. Para entender mejor este punto, pueden ponerse en el caso de que están haciendo este proyecto para un cliente, y deben entregarle el resultado final.
+
+Naturalmente cada grupo comprometió diferentes cosas con su ayudante, por lo tanto, gran parte de esta evaluación será en base al criterio del ayudante.
+
 ## Restricciones
 
 - La aplicación debe desarrollarse en **Node.js** y **koa**.
