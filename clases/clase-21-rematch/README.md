@@ -1,6 +1,8 @@
 # Clase 21: REmatch
 
 > [Video de la clase](https://drive.google.com/file/d/1_A2bMgYPhVynPRFUYxIFKIceEssAK6kf/view?usp=sharing) (requiere haber iniciado sesión con cuenta UC)
+>
+> [Material de la clase](https://drive.google.com/drive/folders/1oWVxfrUkiiEgBhagYhcyWxPEnQ5plSV4?usp=sharing) (requiere haber iniciado sesión con cuenta UC)
 
 ## Temas
 - REmatch
