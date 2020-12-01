@@ -25,3 +25,5 @@
 - [Cloudflare - "What Is Web Application Security?"](https://www.cloudflare.com/learning/security/what-is-web-application-security/)
 - [MDN - "Transport Layer Security"](https://developer.mozilla.org/en-US/docs/Web/Security/Transport_Layer_Security)
 - [Cloudflare - "What is SSL? | SSL definition"](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
+- [Stanford - "CS 253 Web Security"](https://web.stanford.edu/class/cs253/)
+- [High Performance Browser Networking - "Transport Layer Security (TLS)"](https://hpbn.co/transport-layer-security-tls/)
