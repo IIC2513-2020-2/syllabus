@@ -26,7 +26,7 @@ Tendrás que clonar y modificar dos proyectos cuyos links se encuentran a contin
 
 En cada uno de los repositorios encontrarás instrucciones para ejecutarlos. Parte de estos proyectos es lo que deberás subir para entregar tu examen.
 
-## Parte I: HTML + CSS
+## Parte I: HTML + CSS (2.0 pts)
 
 En esta primera parte tendrás que implementar dos documentos HTML **estáticos**. Para esto tendrás disponibles wireframes en los cuales te debes basar para el estilo y disposición de elementos. Las páginas a implementar son dos: login de usuario y contenido principal.
 
@@ -44,7 +44,7 @@ El archivo que debes modificar con el código HTML ya existe y se encuentra en l
 
 Debes tener en cuenta las siguientes consideraciones y restricciones:
 
-- El formulario debe estar centrado, pero para tamaños menores a 501px debe ocupar todo el ancho de la pantalla (puedes incluir un pequeño padding o margin si gustas)
+- El formulario debe estar centrado **tanto horizontal como verticalmente**, pero para tamaños menores a 501px debe ocupar todo el ancho de la pantalla (puedes incluir un pequeño padding o margin si gustas)
 - No importa hacia dónde haga submit el formulario. Podrías incluso omitir el atributo que especifca esto
 - **DEBES** utilizar el archivo existente. No se aceptarán respuestas en otros archivos diferentes a `login.html`
 
@@ -77,7 +77,7 @@ Debes tener en cuenta las siguientes consideraciones y restricciones:
 - En cuanto a layout, puedes utilizar Flexbox, Grid o float. Queda a criterio tuyo, pero recuerda que floats está algo "obsoleto"
 - Puedes elegir colores y tipografías a gusto si lo deseas, pero no será evaluado. Sin embargo, si incluyes estos elementos al nivel de definir una paleta de colores y tipografía coherentes, tendrás un **bonus por proactividad de 0.1 puntos**.
 
-## Parte II: API
+## Parte II: API (2.0 pts)
 
 En esta parte del examen tendrás que implementar algunos endpoints de la API asociados a la cantidad de personas por comuna y/o sector dentro de la zona de totalidad del eclipse solar.
 
@@ -187,7 +187,7 @@ Para casos especiales en que el request no sea válido:
 - Si request falla por validación, retornar status code `422` (el body no es relevante)
 - No es necesario validar *uniqueness* de fecha ni nada relacionado a fecha, pero sí debes validar que la cantidad de personas sea positiva. Además debes exigir que estén presentes todos los campos
 
-## Parte III: Componente en React e integración con API
+## Parte III: Componente en React e integración con API (2.0 pts)
 
 Hasta este punto, ya debieses tener los endpoints necesarios de la API funcionando y, además, documentos HTML estáticos con estilos incorporados. Sólo faltaría integrar estas partes en una single-page application construida en React.
 
