@@ -114,6 +114,13 @@ La API requiere que los usuarios inicien sesión antes de poder realizar alguna 
 
 - **IMPORTANTE**: no olvides agregar la variable de ambiente `JWT_SECRET` para que la generación del token funcione
 
+[**UPDATE**] En las seeds del proyecto podrás encontrar usuarios ya registrados. Uno de esos usuarios tiene las siguientes credenciales:
+
+```
+E-email: user@example.org
+Password: hola.123
+```
+
 ### Listado de comunas e información del eclipse
 
 Este endpoint entrega la información de las comunas y sectores dentro de la zona de totalidad del eclipse solar y, para cada una, información sobre el eclipse mismo (horarios en su mayoría). El endpoint está parcialmente implementado. De hecho, puedes hacer un request y obtendrás una respuesta. Sin embargo, esto no debería ser así pues no debiese ser de acceso público. Recuerda que esta API sólo será accedida por usuarios autenticados.
