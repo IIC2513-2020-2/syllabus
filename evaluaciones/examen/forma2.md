@@ -144,7 +144,7 @@ La especificación del endpoint es:
           "PeopleInfluxes": [
             {
               "quantity", // People quantity
-              "date", // Date of influx
+              "date", // Date of influx (ISO 8601 format)
             }
           ]
         },
@@ -183,7 +183,7 @@ La especificación del endpoint es:
         {
           "id", // Influx ID
           "quantity", // People quantity
-          "date", // Date of influx (format pending)
+          "date", // Date of influx (ISO 8601 format)
           "districtId", // District ID
         }
         ```

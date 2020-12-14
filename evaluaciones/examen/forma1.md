@@ -149,7 +149,7 @@ La especificación del endpoint es:
           "WeatherForecasts": [
             {
               "forecast", // Forecast name
-              "date", // Date of forecast (format pending)
+              "date", // Date of forecast (ISO 8601 format)
               "min", // Minimum temperature
               "max", // Maximum temperature
             }
@@ -192,7 +192,7 @@ La especificación del endpoint es:
         {
           "id", // Forecast ID
           "forecast", // Forecast name
-          "date", // Date of forecast (format pending)
+          "date", // Date of forecast (ISO 8601 format)
           "min", // Minimum temperature
           "max", // Maximum temperature
           "districtId", // District ID
