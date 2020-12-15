@@ -1,7 +1,7 @@
 # Examen IIC2513 sección 1 2020/2
 > **Forma 2**
 >
-> **Plazo de entrega: 14 de diciembre de 2020 hasta las 23:59 hrs**
+> **Plazo de entrega: 15 de diciembre de 2020 hasta las 02:00 hrs**
 
 ## Contexto
 
