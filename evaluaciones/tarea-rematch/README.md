@@ -7,7 +7,7 @@ Para realizar esta tarea será necesario que primero revisen un tutorial de uso 
 
 El enunciado está [disponible en este documento en RunKit](https://runkit.com/crivero1/enunciado-tarea-rematchjs). Al final encontrarán instrucciones de entrega, pero en resumen deben crear un proyecto en Node.js, instalar la librería como dependencia y generar un archivo con el nombre `solucion.js`, donde incluirán todo el código de la tarea. Es este archivo (**y sólo este archivo**) el que deben entregar.
 
-Finalmente, para la entrega misma, deben subir su archivo `solucion.js` a un formulario que será habilitado próximamente.
+Finalmente, para la entrega misma, deben subir su archivo `solucion.js` en el formulario presente en [esta URL](https://forms.gle/rpE36it2w8tHxsQn6)
 
 ## Consideraciones
 
